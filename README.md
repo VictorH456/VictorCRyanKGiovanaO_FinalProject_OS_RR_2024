@@ -2,10 +2,11 @@
 <p align="center">
   <a href="">
     <img src="https://user-images.githubusercontent.com/49700354/114078715-a61b2f00-987f-11eb-8eef-6fd7cfc17d33.png" alt="" width="80" height="80">
+    <img src="https://github.com/VictorH456/VictorCRyanKGiovanaO_FinalProject_OS_RR_2024/blob/main/Imagens/Dcc.png" alt="" width="80" height="80">
   </a>
   <h1 align="center">"Projeto de Política de Escalonamento para o Kernel Linux"</h1>
   <p align="center">
-    <img src="https://github.com/VictorH456/VictorCRyanKGiovanaO_FinalProject_OS_RR_2024/blob/main/Imagens/Pe.jpeg">
+    <img src="https://github.com/VictorH456/VictorCRyanKGiovanaO_FinalProject_OS_RR_2024/blob/main/Imagens/Pe.jpeg" alt="" width="500" height="500">
 
 # O que é o Escalonador do Linux?
 O escalonador é um componente essencial em sistemas operacionais modernos, responsável por determinar qual processo ou thread será executado pela CPU em um dado momento. Com múltiplos processos competindo por tempo de processamento, o escalonador organiza essa fila, priorizando e distribuindo os recursos de forma eficiente. A maioria dos algoritmos de escalonamento no Linux baseia-se em prioridades para garantir que os processos sejam executados de forma justa e otimizada, proporcionando um uso balanceado e eficaz da CPU e dos dispositivos de entrada e saída (E/S).
