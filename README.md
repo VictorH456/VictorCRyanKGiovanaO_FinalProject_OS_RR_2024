@@ -33,10 +33,11 @@ O escalonador é um componente essencial em sistemas operacionais modernos, resp
 
 6. Configure o kernel
 ```
-Possui duas opções de configurações usando cp /boot/config-$(uname -r) .config que baixa as configurações do kernel atual,
-logo se o kernel não for o mesmo, ou caso tenha um kernel especifico,
-será necessário modificações, ou usando make defconfig vem configurações padrões, onde drivers e outros utensílios estão desativados.
-Utilize make menuconfig para modificações desejadas, caso não tenha pode pular
+   Possui duas opções de configurações usando cp /boot/config-$(uname -r) .config que baixa as configurações do kernel atual,
+   logo se o kernel não for o mesmo, ou caso tenha um kernel especifico,
+   será necessário modificações, ou usando make defconfig vem configurações padrões, onde drivers e outros utensílios estão 
+   desativados.
+   Utilize make menuconfig para modificações desejadas, caso não tenha pode pular
 ```
 7. Compile o kernel
 
@@ -44,25 +45,25 @@ Utilize make menuconfig para modificações desejadas, caso não tenha pode pula
 
 8. Instale o kernel
 ```
-sudo make modules_install
-sudo make install
+   sudo make modules_install
+   sudo make install
 ```
 10. Atualize o grub e reinicie(segurando shift para selecionar o kernel desejado)
 ```
-sudo update-grub
-sudo reboot
+   sudo update-grub
+   sudo reboot
 ```
 11. Verifique a nova versão do kernel
-```
-uname -r
-```
+
+```uname -r```
+
 12. Teste a nova política
 ```
-Criar dois arquivos teste_background.c e teste_performance.c para os testes.
-Após a criação basta usar os comandos:
-gcc -o teste_background teste_background.c
-sudo ./teste_background
+   Criar dois arquivos teste_background.c e teste_performance.c para os testes.
+   Após a criação basta usar os comandos:
+   gcc -o teste_background teste_background.c
+   sudo ./teste_background
 
-gcc -o teste_performance teste_performance.c
-sudo ./teste_performance
+   gcc -o teste_performance teste_performance.c
+   sudo ./teste_performance
 ```
