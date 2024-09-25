@@ -2,7 +2,7 @@
 <p align="center">
   <a href="">
     <img src="https://user-images.githubusercontent.com/49700354/114078715-a61b2f00-987f-11eb-8eef-6fd7cfc17d33.png" alt="" width="80" height="80">
-    <img src="https://github.com/VictorH456/VictorCRyanKGiovanaO_FinalProject_OS_RR_2024/blob/main/Imagens/Dcc.png" alt="" width="80" height="80">
+    <img src="https://github.com/VictorH456/VictorCRyanKGiovanaO_FinalProject_OS_RR_2024/blob/main/Imagens/Dcc.png" alt="" width="90" height="80">
   </a>
   <h1 align="center">"Projeto de Política de Escalonamento para o Kernel Linux"</h1>
   <p align="center">
